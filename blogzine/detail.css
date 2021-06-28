@@ -1,0 +1,526 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.fs-10 {
+    font-size: 10px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-35 {
+    font-size: 35px;
+}
+.fs-45 {
+    font-size: 45px;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-size: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+.fw-700 {
+    font-weight: 700;
+}
+.fw-800 {
+    font-weight: 800;
+}
+.fw-900 {
+    font-weight: 900;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+.mr-30 {
+    margin-right: 30px;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+.ml-15 {
+    margin-left: 15px;
+}
+.ml-30 {
+    margin-left: 30px;
+}
+
+.mb-30 {
+    margin-bottom: 40px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pt-15 {
+    padding-top: 15px !important;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+.pt-30 {
+    padding-top: 30px;
+}
+.pb-40 {
+    padding-bottom: 40px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pb-15 {
+    padding-bottom: 15px !important;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+.pr-15 {
+    padding-right: 15px;
+}
+.pr-30 {
+    padding-right: 30px;
+}
+.pr-20 {
+    padding-right: 20px;
+}
+.pl-15 {
+    padding-left: 15px;
+}
+.line-hight {
+    line-height: 25px;
+}
+.d-flex {
+    display: flex;
+}
+.b-r {
+    border-radius: 8px;
+}
+
+.gray {
+    color: gray;
+}
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+.text-center {
+    text-align: center;
+}
+.border-circle {
+    border-radius: 50%;
+}
+.header {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.subscribe-button {
+    border: none;
+    padding: 10px 25px;
+    background-color:#d6293e;
+    border-radius: 5px;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+.subscribe-button:hover {
+    background-color:#a00e1f;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.subscribe-section {
+    display: flex;
+    align-items: center;
+}
+.sec-1 {
+    width: 100%;
+    height: 65vh;
+    margin-top: 50px;
+    background-image: url("./lopez.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px;
+    transition: 0.5s;
+}
+.sec-1:hover {
+    transform: scale(1.05) ;
+}
+.badge-btn {
+    border-radius: 4px;
+    padding: 1px 10px;
+    color: white;
+    background-color: #d6293e;
+    display: inline-block;
+}
+
+.badge-btn-wrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.avatar {
+    border-radius: 50%;
+}
+.avtar-detail {
+    display: flex;
+    align-items: center;
+}
+.sec-2 {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 120px;
+    margin-bottom: 50px;
+}
+.sec-2-left {
+    width: 77%;
+}
+.sec-2-right {
+    width: 23%;
+    margin-left: 40px;
+}
+
+
+.category-tab {
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.yellow-tab .badge {
+    background-color: #f7c32e;
+}
+
+.yellow-tab p {
+    color: #f7c32e;
+}
+
+.red-tab p {
+    color: #d6293e;
+}
+
+.red-tab .badge {
+    background-color: #d6293e;
+}
+
+.green-tab .badge {
+    background-color: #0cbc87;
+}
+
+.green-tab p {
+    color: #0cbc87;
+}
+.blue-tab .badge {
+    background-color:#4f9ef8;
+}
+
+.blue-tab p {
+    color: #4f9ef8;
+}
+.dark-blue-tab .badge {
+    background-color:#2163e8;
+}
+
+.dark-blue-tab p {
+    color: #2163e8 ;
+}
+
+
+
+.category-tab p {
+    font-weight: 700;
+}
+
+.badge {
+    padding: 3px;
+    border-radius: 5px;
+    color: black;
+
+}
+.bg-blue {
+    background-color: rgba(79, 158, 248, 0.1) !important;;
+}
+.bg-pink {
+    background-color: rgba(247, 195, 46, 0.15) !important;;
+
+}
+.Subscribe-to-our-mailing-list {
+    width: 100%;
+    background-color:#f7f8f9;
+    border-radius: 8px;
+    padding: 25px;
+    text-align: center;
+    margin-top: 40px;
+}
+.input-email {
+    width: 100%;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.frame-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 55px;
+    padding-bottom: 50px;
+}
+
+.image-frame {
+    width: 32.5%;
+    height: 350px;
+    margin-bottom: 10px;
+}
+
+.image-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.productive-detail {
+    display: flex;
+    padding-bottom: 55px;
+}
+.productive-detail-1 {
+    padding-right: 35px;
+}
+.table {
+    width: 100%;
+}
+.Louis-Ferguson {
+    width: 100%;
+    background-color: rgba(33, 99, 232, 0.1);
+    border-radius: 8px;
+    display: flex;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.louis-img {
+    width: 450px;
+    height: 100%;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 8px;
+
+}
+.louisimg {
+    border-radius: 50%;
+}
+.view-article {
+    display: flex;
+    justify-content: space-between;
+}
+.view-button {
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    height: 22px;
+    background-color: #2163e81a;
+    color: #2163e8;
+    cursor: pointer;
+}
+.view-button:hover {
+    background-color: #2163e8;
+    color: white;
+}
+.name-input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+.input-wrap {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+.input-box {
+    width: 48%;
+}
+.comment-input {
+    width: 100%;
+    height: 70px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.post-button {
+    border: none;
+    border-radius: 5px;
+    background-color: #2163e8;
+    padding: 10px 15px;
+    font-weight: 700;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.post-button:hover {
+    background-color: blue;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.footer-badge {
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #2163e8 ;
+    cursor: pointer;
+    background-color:rgba(79, 158, 248, 0.1);
+    margin-bottom: 10px;
+    display: block;
+    margin-right: 10px;
+}
+.footer-badge:hover {
+    color: white;
+    background-color: #2163e8;
+}
+
+.tag-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag-section {
+    width: 25%;
+}
+@media only screen and (max-width: 768px) {
+    .header {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .sec-2 {
+        flex-direction: column;
+    }
+    .productive-detail-1 {
+        padding-right: 0px;
+    }.productive-detail {
+        flex-direction: column;
+    }
+    footer {
+        
+        flex-direction: column;
+    }
+    .sec-2-right {
+        width: 100%;
+        margin-left: 10px;
+        padding-right: 10px;
+        padding-top: 40px;
+    }
+    .sec-2 {
+        
+        padding-bottom: 50px;
+    }
+    .nav-bar {
+        
+        flex-direction: column;
+    }
+    .sec-2-left {
+        width: 100%;
+    }
+    .padding {
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    .sec-1 {
+        padding: 0px;
+    }
+    .view-button {
+       
+        height: unset;
+        
+    }
+
+}    
